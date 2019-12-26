@@ -2,14 +2,8 @@ import React from 'react';
 
 class App extends React.Component {
   render() {
-    const listsWithCardIds = this.props.store.lists
-      .map(item => ({ 
-        'header': item.header, 
-        'cardIds': item.cardIds 
-      }));
-    
-      const listsWithCards = listsWithCardIds
-        .map(listItem => buildListObject(listItem, this.props.store.allCards));
+    const listsWithCards = this.props.store.lists
+      .map(item => buildListObject(item, this.props.store.allCards));
 
     console.log(listsWithCards);
     return (

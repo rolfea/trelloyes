@@ -1,3 +1,7 @@
+# TrelloYes
+
+This is a fake trello copy that is static. An exercise to play around with basic React idioms.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
